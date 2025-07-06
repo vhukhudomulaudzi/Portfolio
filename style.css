@@ -1,0 +1,146 @@
+ /* style.css */
+
+/* Body and font reset */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Section title styling */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0d6efd;
+}
+.heading {
+  text-align: center;
+}
+.head{
+  text-align: center;
+}
+/* Paragraph styling */
+p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Navbar adjustments (if needed) */
+.navbar-nav .nav-link {
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0d6efd;
+}
+
+/* Image shadow */
+img.shadow {
+  box-shadow: 0 4px 12px rgba(58, 137, 241, 0.15);
+}
+/* styling for skills section */
+.card {
+  border: 1px solid grey;
+  border-radius: 30px;
+  width: 70%;
+  padding: 20px;
+  background:#181a1b;
+  color: whitesmoke;
+  box-shadow: 0 4px 12px rgba(58, 137, 241, 0.15);
+  
+  margin-left: 180px;}
+.progress {
+  background: #898181;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.progress .bar {
+  background: #52bae0;
+  height: 20px;
+  border-radius: 20px;
+  width: 0%
+}
+/* Styling for the contact page */
+.contact-boxes{display: flex;
+gap: 20px;}
+.box {border: 1px solid grey;
+  border-radius: 30px;
+  width: 70%;
+  padding: 30px;
+  background:#181a1b;
+  color: whitesmoke;
+  box-shadow: 0 4px 12px rgba(58, 137, 241, 0.15);
+
+}
+.box p {
+  text-align: center;
+}
+.box h2 {
+  text-align: center;
+}
+form{
+  text-align: center;
+}
+
+/* Footer styling */
+footer {
+  background-color: #212529;
+  color: white;
+  padding: 30px 0;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  margin: 8px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #0d6efd;
+}
+/* location.css */
+
+/* Optional custom modal tweaks */
+.modal-content {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+  background-color: #0d6efd;
+  color: white;
+  border-bottom: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.modal-body {
+  font-size: 1rem;
+  padding: 20px;
+  color: #333;
+}
+
+.btn-close {
+  background: none;
+}
+
+/* Center modal text */
+#locationText {
+  text-align: center;
+}
