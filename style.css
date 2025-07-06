@@ -39,49 +39,46 @@ p {
 img.shadow {
   box-shadow: 0 4px 12px rgba(58, 137, 241, 0.15);
 }
-/* styling for skills section */
+/* styling for skills cards*/
 .card {
-  border: 1px solid grey;
-  border-radius: 30px;
-  width: 70%;
-  padding: 20px;
-  background:#181a1b;
-  color: whitesmoke;
-  box-shadow: 0 4px 12px rgba(58, 137, 241, 0.15);
-  
-  margin-left: 180px;}
-.progress {
-  background: #898181;
-  border-radius: 20px;
-  margin-bottom: 20px;
-  position: relative;
+    background-color: #252527;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card p { 
+    color: white;
+  }
+
+  .progress-bar {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+  }
+  /*Styling for contact box*/
+  .box {
+    background-color: #252527;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .box h2 { 
+    color: rgb(42, 150, 228);
+  }
+.box label {
+  text-align: center;
+  color: white;
 }
-.progress .bar {
-  background: #52bae0;
-  height: 20px;
-  border-radius: 20px;
-  width: 0%
-}
-/* Styling for the contact page */
-.contact-boxes{display: flex;
-gap: 20px;}
-.box {border: 1px solid grey;
-  border-radius: 30px;
-  width: 70%;
-  padding: 30px;
-  background:#181a1b;
-  color: whitesmoke;
-  box-shadow: 0 4px 12px rgba(58, 137, 241, 0.15);
+.box a {
+  color: white;
+text-decoration: none;
 
 }
-.box p {
-  text-align: center;
-}
-.box h2 {
-  text-align: center;
-}
-form{
-  text-align: center;
+.box p {text-align: center;}
+.box hr {
+  color: #e0e0e0;
 }
 
 /* Footer styling */

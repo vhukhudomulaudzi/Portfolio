@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <!-- Bootstrap CSS via CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
@@ -30,45 +30,62 @@
       </div>
     </div>
   </nav>
-<section class="container my-5">
-  <h1 class="head">Get In Touch</h1>
   
-  <hr>
-<br><br>
-  <div class="contact-boxes">
-    <div class="box">
-      
-       <form>
-            
-            <h2>Contact Me </h2>
+<section class="container my-5">
+  <h1 class="text-center text-primary mb-4">Get In Touch</h1>
+  <hr class="mb-5">
+
+  <div class="row g-4">
+    
+    <!-- Contact Form -->
+    <div class="col-md-6 d-flex">
+      <div class="box shadow-sm p-4 w-100 h-100 d-flex flex-column">
+        <form class="flex-grow-1 d-flex flex-column justify-content-between">
+          <div>
+            <h2 class="head">Contact Me</h2>
             <hr>
-            <label for="Full name">Full name</label><br>
-            <input type="text" id="username" name="username" class="text" placeholder="Username"><br><br>
-        
-            <label for="email">Email</label><br>
-            <input type="text" id="email" name="email" class="text" placeholder="username123@gmail.com"><br><br>
-            <label for="message">Message</label><br>
-            <textarea name="message" rows="05" cols="30">Type your Message here.</textarea><br><br>
-            <input type="button" value="send" class="button">
-            <input type="button" value="clear" class="button">
-            
-            
-            
+            <div class="mb-3">
+              <label for="username" class="form-label">Full Name</label>
+              <input type="text" id="username" name="username" class="form-control" placeholder="Username">
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="username123@gmail.com">
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea name="message" id="message" rows="5" class="form-control" placeholder="Type your message here."></textarea>
+            </div>
+          </div>
+
+          <div>
+            <button type="submit" class="btn btn-primary me-2">Send</button>
+            <button type="reset" class="btn btn-secondary">Clear</button>
+          </div>
         </form>
-      
+      </div>
     </div>
 
-    <div class="box">
-      
-      <h2>Social Profiles</h2>
-      <hr>
-    <p><a href="https://github.com/vhukhudomulaudzi"><i class=" fa fa-github"></i></a>Github</p>
-      <p><a href="https://facebook.com/vhukhudo.mulaudzi.36956"><i class=" fa fa-Facebook"></i></a>Facebook</p>
-      <p><a href="https://www.linkedin.com/in/vhukhudomulaudzi"><i class="fa fa-linkedin-square"></i></a>Linkedin</p>
+    <!-- Social Profiles -->
+    <div class="col-md-6 d-flex">
+      <div class="box shadow-sm p-4 w-100 h-100">
+        <h2 class="head">Social Profiles</h2>
+        <hr>
+        <p><a href="https://github.com/vhukhudomulaudzi" target="_blank"><i class="fa fa-github me-2"></i>GitHub</a></p>
+        <p><a href="https://facebook.com/vhukhudo.mulaudzi.36956" target="_blank"><i class="fa fa-facebook me-2"></i>Facebook</a></p>
+        <p><a href="https://www.linkedin.com/in/vhukhudomulaudzi" target="_blank"><i class="fa fa-linkedin-square me-2"></i>LinkedIn</a></p>
+      </div>
     </div>
+
   </div>
-  <br><br>
 </section>
+
+
+
+
+
 <!-- Footer -->
   <footer class="bg-dark text-white py-4">
     <div class="container text-center">
@@ -87,5 +104,7 @@
       </ul>
     </div>
   </footer>
+  <!-- Bootstrap JS Bundle via CDN (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
